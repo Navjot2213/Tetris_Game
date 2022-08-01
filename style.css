@@ -1,18 +1,61 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 body{
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFB178;
+    color: rgb(191, 191, 191);
 }
-#score{
-    display: inline-block;
-}
-div{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
+.container{
+	position: relative;
+	left: 35%;
+	width: 350px;
+    background-color: #243441;
+    backdrop-filter: blur (10px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin: 50px 0;
+    height: auto;
 }
 canvas{
-    display: block;
-    margin:0 auto;
+    background-color: #13181d25;
+    padding: 15px;
+    border-radius: 10px;
+}
+.score{
+    margin: 0;
+    font-weight: 300;
+}
+.btn-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.btn{
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    color: #ED802E;
+    background-color: #243441;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 40px
+}
+.btn-orange{
+	background-color: #ED802E;
+    color: #243441;
 }
